@@ -19,6 +19,12 @@
     "support": {
         "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues"
     },
+    "repositories": [
+        {
+            "url": "https://github.com/Lewiscowles1986/environment",
+            "type": "git"
+        }
+    ],
     "config": {
         "optimize-autoloader": true,
         "sort-packages": true
@@ -31,7 +37,7 @@
         "phpunit/php-token-stream": "^2.0.1",
         "phpunit/php-text-template": "^1.2.1",
         "sebastian/code-unit-reverse-lookup": "^1.0.1",
-        "sebastian/environment": "^3.0",
+        "sebastian/environment": "dev-fork/3.1.1-lc as 3.1.1",
         "sebastian/version": "^2.0.1",
         "theseer/tokenizer": "^1.1"
     },
